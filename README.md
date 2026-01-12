@@ -17,7 +17,7 @@ Simple **offline** speech recognition bridge using **Vosk** (no cloud, no intern
   Download from: https://alphacephei.com/vosk/models  
    
 **How to use**  
-1. Place `vosk_offline_en.py` and model folder in your app directory  
+1. Place `vosk_mini.py` and model folder in your app directory  
 2. Run Python script (or start via Delphi)  
 3. Speak commands – recognized text goes to `SpeechCommand\recognized_command.txt`  
 4. Delphi monitors folder and executes actions   
@@ -196,7 +196,7 @@ begin
     // Change these paths to your own
     const PrgPfad = 'C:\YourApp\';
     const PythonExe = 'C:\Python312\python.exe';
-    const ScriptFile = PrgPfad + 'vosk_offline_en.py';
+    const ScriptFile = PrgPfad + 'vosk_mini.py';
 
     // Delete old command file
     DeleteFile(PChar(PrgPfad + 'SpeechCommand\recognized_command.txt'));
