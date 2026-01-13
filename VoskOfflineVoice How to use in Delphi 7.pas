@@ -1,9 +1,9 @@
 
-
+{
 Create a FldrControl1: TFldrControl; connect this at it 
 and later in text is how to start the process, and thats it, done, 
 basic offline ai voice control working in D7 :D
-
+}
 
 procedure FolderControlGetResult(Folder: String; Action: Integer);
 var
@@ -226,4 +226,5 @@ begin
     on E: Exception do
       ShowMessage('Error starting voice control: ' + E.Message);
   end;
+
 end;
