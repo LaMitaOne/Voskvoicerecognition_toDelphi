@@ -3,6 +3,8 @@ Vosk Offline Voice Control for Delphi 7 and newer
 ## Vosk Offline Voice Control for Delphi   
    
 Simple **offline** speech recognition bridge using **Vosk** (no cloud, no internet) for Delphi 7+.  
+
+Tip: you can send the recognized text to a llm too... 😉   
    
 **Features**     
 - English commands: play, next, pause, stop  
