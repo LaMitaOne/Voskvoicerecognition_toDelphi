@@ -1,5 +1,8 @@
 # Voskvoicerecognition_toDelphi
 Vosk Offline Voice Control for Delphi 7 and newer   
+    
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/LaMitaOne/Voskvoicerecognition_toDelphi)
+    
 ## Vosk Offline Voice Control for Delphi   
    
 Simple **offline** speech recognition bridge using **Vosk** (no cloud, no internet) for Delphi 7+.  
